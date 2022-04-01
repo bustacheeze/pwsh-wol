@@ -21,11 +21,11 @@
     PSCustomObject. Send-MagicPacket returns an Object with the target MAC and IP addresses
 
     .EXAMPLE
-    PS> Send-MagicPacket AA-BB-CC-00-11-22
+    PS> .\Send-MagicPacket.ps1 AA-BB-CC-00-11-22
     Sends a magic packet to MAC address AA-BB-CC-00-11-22 via IP address 255.255.255.255
 
     .EXAMPLE
-    PS> "aabb.cc00.1122" | Send-MagicPacket -IPAddress 192.168.0.255
+    PS> "aabb.cc00.1122" | .\Send-MagicPacket.ps1 -IPAddress 192.168.0.255
     Sends a magic packet to MAC address AA-BB-CC-00-11-22 via IP address 192.168.0.255
 #>
 
