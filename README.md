@@ -1,2 +1,2 @@
-# pswh-wol
+# pwsh-wol
 PowerShell Wake on LAN
